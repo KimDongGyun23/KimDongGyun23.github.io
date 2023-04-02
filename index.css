@@ -1,0 +1,104 @@
+body{
+  background-color: #2d3436;
+  text-align: center;
+  color: #ecf0f1;
+  padding: 1%;
+  font-family: 'Alkatra', cursive;
+}
+
+h1{
+  font-size: 112px;
+  margin-top:13%;
+  margin-bottom: 0px;
+}
+
+.material-icons{
+  font-weight: 100;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+h5{
+  display: inline;
+  font-weight: 100;
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: darkolivegreen;
+  text-shadow: 2px 0 #fff, 0 2px #fff, -2px 0 #fff, 0 -2px #fff;
+}
+
+
+input {
+  border: none;
+  background: transparent;
+  font-size: 22px;
+  margin: 3px;
+  text-align:center;
+  color: #ecf0f1;
+  border-bottom: 2px solid #ecf0f1;
+}
+
+ul {
+  margin-left: 40%;
+}
+
+li{
+  list-style: none;
+  font-size: 20px;
+  text-align:left;
+  color: #ecf0f1;
+}
+li:before{
+  display: inline;
+  vertical-align: left;
+  padding: 5px;
+}
+
+button{
+  border: none;
+  background: transparent;
+  font-size: 22px;
+}
+
+.form,
+.greetings {
+  display: none;
+}
+
+.showing{
+  display: block;
+  transition: color .5s ease-in-out;
+  font-size: 34px;
+  margin-top: 0px;
+}
+
+.bgImg{
+  position: absolute;
+  top:0;
+  left: 0;
+  width:100%;
+  height: 100%;
+  z-index: -1;
+  animation: fadeIn 0.5s linear;
+}
+
+.temp{
+  font-weight: 500;
+  font-size: 22px;
+  padding-left: 95%;
+}
+
+.place{
+  font-weight: 300;
+  font-size: 12px;
+  padding-left: 95%;
+}
+
+@keyframes fadeIn{
+  from {
+      opacity: 0;
+  }
+  to{
+      opacity : 1;
+  }
+}

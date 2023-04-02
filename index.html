@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <title>고롷케's daily</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alkatra&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet">
+
+        <meta charset="utf-8"/>
+    </head>
+    <body>
+        <span class='temp'></span>
+        <span class='place'></span>
+
+        <!-- clock -->
+        <div class="clock">
+            <h1>00:00</h1>
+        </div>
+
+        <!-- greeting -->
+        <h4 class="greetings"></h4>
+        <span class="material-icons">favorite</span>
+        <h5>&nbsp;Today's ToDo-LIST</h5>
+
+        <!-- name -->
+        <form class="form">
+            <input type='text' placeholder="Please let me know your name.">
+        </form>
+        
+        <!-- Todo List -->
+        <form class="toDoForm">
+            <input type="text" placeholder="">
+        </form>
+        
+        <ul class="toDoList"></ul>
+
+        <script src="clock.js"></script>
+        <script src="greeting.js"></script>
+        <script src="todo.js"></script>
+        <script src="bg.js"></script>
+        <script src="weather.js"></script>
+    </body>
+</html>
